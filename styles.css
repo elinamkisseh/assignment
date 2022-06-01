@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+    color: brown;
+}
+
+.list-of-games{
+    display:flex;
+    place-content: space-around;
+    width: 50%;
+    
+    margin: 0 auto;
+
+}
+
+.list-of-games ul li{
+    list-style-type:circle
+}
