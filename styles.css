@@ -1,17 +1,82 @@
-h2{
-    text-align: center;
-    color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: #EEEEEE;
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
 }
 
-.list-of-games{
-    display:flex;
+*{
+    margin: 0;
+}
+
+.header {
+text-align: center;
+background: linear-gradient(65deg, #FF5F00, #B20600);
+color: white;
+padding: 10px;
+margin-bottom: 50px;
+box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+
+}
+
+.section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px ;
+}
+
+.section h3{
+    width: fit-content;
+    background: #00092C;
+    color:#fff;
+    padding: 10px;
+    margin:10px auto;
+    border-radius: 10px;
+}
+
+.event{
+    margin-bottom: 20px
+}
+
+
+.people p{
+    margin-bottom:15px;
+}
+
+.football{
+margin-bottom: 20px ;
+
+
+}
+h2 {
+    text-align: center;
+    color: brown;
+    width: 50%;
+    margin: 0 auto;
+    text-decoration: underline;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.list-of-games {
+    display: flex;
     place-content: space-around;
     width: 50%;
-    
+
     margin: 0 auto;
 
 }
 
-.list-of-games ul li{
-    list-style-type:circle
+.list-of-games ul li {
+    list-style-type: circle
+}
+
+h3 {
+    text-align: center;
+
+
 }
