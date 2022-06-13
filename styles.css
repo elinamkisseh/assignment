@@ -6,6 +6,8 @@ body{
     background-color: #EEEEEE;
     font-family: 'Baloo 2', cursive;
     font-size: 18px;
+   
+    /* padding: 15px ; */
 }
 
 *{
@@ -22,18 +24,22 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 
 }
 
-.section{
-    width: 70%;
+.content{
+    width: 80%;
     margin: 0 auto;
-    padding: 15px ;
 }
+
+.section{
+   
+}
+
 
 .section h3{
     width: fit-content;
     background: #00092C;
     color:#fff;
     padding: 10px;
-    margin:10px auto;
+    margin: 100px auto 20px auto;
     border-radius: 10px;
 }
 
@@ -80,3 +86,119 @@ h3 {
 
 
 }
+.base h3{
+width: fit-content;
+background:#B20600;
+color:#EEEEEE;
+padding: 10px;
+margin:10px auto;
+border-radius:10px ;
+ margin: 100px auto 20px auto;
+}
+.ball h3{
+width: fit-content;
+background:#B20600;
+color: #EEEEEE;
+padding:  10px ;
+margin:10px auto;
+border-radius: 10px;
+margin: 100px auto 20px auto;
+}
+
+.countries{
+display:flex;
+place-content: space-around;
+width:50%;
+margin: 0auto;
+}
+
+
+.countries ul li {
+list-style-type: circle;
+}
+.rugby h4{
+width: fit-content;
+background: #FF5F00;
+color: #EEEEEE;
+padding: 10px;
+margin:  10px auto;
+border-radius: 10px;
+margin: 100px auto 20px auto;
+}
+
+
+.cards{
+width: fit-content;
+background:#FF5F00 ;
+color: #EEEEEE;
+padding: 10px;
+margin: 10px auto;
+border-radius: 10px;
+margin: 100px auto 20px auto;
+}
+
+.national{
+width: fit-content;
+background: #F0A500;
+color: #EEEEEE;
+padding:  10PX;
+margin: 10px auto;
+border-radius: 10px;
+margin: 100px auto 20px auto;
+}
+.rap{
+
+    margin: 100px auto 20px auto;
+
+}
+.dance{
+
+    display: flex;
+    place-content: space-around;
+    width: 50%;
+
+    margin: 0 auto;
+}
+.shoe{
+    margin: 100px auto 20px auto;
+
+}
+.summary{ 
+
+    display: flex;
+    place-content: space-around;
+    width: 50%;
+
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
